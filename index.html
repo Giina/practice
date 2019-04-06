@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>practice</title>
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1127438_p3e74dq163h.css">
+    <style>
+        html {
+            font-size: 100px;
+        }
+
+        body {
+            margin: 0;
+            background: url('http://m1.mail.sina.com.cn/classic/base_download_att.php?mid=041DEE6997ADBB0D321E9ADB7B00B09E7C00000000000001&fid=new&get_cmd=show&content_type=image/png&file_name=InsertPic_CFEA.png&attinfo=4-22751-102881-base64') no-repeat top left;
+        }
+
+        div {
+            box-sizing: border-box;
+        }
+
+        .container {
+            position: relative;
+            width: 710px;
+            min-height: 518px;
+        }
+
+        .bg {
+            position: absolute;
+            right: 2.6%;
+            bottom: 2.8%;
+            width: 92%;
+            height: 85.6%;
+            border-radius: 4px;
+            background-color: #f2f4fb;
+            z-index: -1;
+        }
+
+        .line {
+            box-sizing: border-box;
+            width: 100%;
+            font-size: .24rem;
+            overflow: hidden;
+        }
+
+        .line--padding-left {
+            padding-left: 12%;
+        }
+
+        .line--padding-right {
+            padding-right: 9.3%;
+        }
+
+        .line .title {
+            float: right;
+            margin-top: 20px;
+            font-size: .64rem;
+            font-weight: bold;
+        }
+
+        .triangle--container {
+            float: left;
+            margin-left: 14px;
+            margin-top: 33px;
+            width: 120px;
+            overflow: hidden;
+        }
+
+        .triangle {
+            float: left;
+            box-sizing: border-box;
+            margin-right: 7px;
+            margin-bottom: 10px;
+            height: 17px;
+            width: 17px;
+            border-top: 17px solid transparent;
+            border-left: 17px solid rgba(36, 80, 231, .1);
+        }
+
+        .paragraph {
+            margin-top: 38px;
+            line-height: 1.5;
+            letter-spacing: .0005rem;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            height: 80px;
+            line-height: 80px;
+            border-radius: 40px;
+            font-weight: bold;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
+
+        .button--primary {
+            justify-content: space-between;
+            margin-top: 24px;
+            margin-bottom: 10px;
+            font-size: 0.32rem;
+            background-color: #0083ff;
+            color: #fff;
+        }
+
+        .button--default {
+            float: left;
+            justify-content: space-around;
+            margin-top: 13.5px;
+            width: 352px;
+            background-color: #fff;
+            color: #000;
+        }
+
+        .button--text-suffix {
+            position: absolute;
+            top: .6em;
+            right: -.18rem;
+            height: 1.2em;
+            line-height: 1.2em;
+            background: #fff;
+            text-align: right;
+            font-size: .18rem;
+        }
+
+        .button--text-divider {
+            width: 2px;
+            height: 32px;
+            background-color: #e8e8e8;
+        }
+
+        .button--primary .iconfont {
+            position: relative;
+            right: -2px;
+            font-size: .36rem;
+            transform: rotate(-90deg);
+        }
+
+        .button--default .iconfont {
+            font-size: .44rem;
+        }
+
+        .button--icon--thumb-up,
+        .button--icon--thumb-down,
+        .button--icon--message {
+            position: relative;
+            height: 100%;
+        }
+
+        .button--icon--thumb-down .iconfont {
+            transform: rotate(180deg);
+        }
+
+        .button--message {
+            margin-left: 25px;
+            width: 179px;
+        }
+
+        .button--icon--message{
+            z-index: 1;
+        }
+        .button--message .button--text{
+            position: relative;
+            z-index: 2;
+        }
+
+        .decoration--container {
+            float: left;
+            margin-left: 30px;
+            margin-top: 32px;
+            margin-right: 37px;
+            width: 20px;
+        }
+
+        .decoration {
+            margin-bottom: 6px;
+            width: 20px;
+            height: 7px;
+            border-radius: 5px;
+            background-color: #000;
+            transform: rotate(30deg);
+            transform-origin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- <div class="bg"></div> -->
+        <div class="line line--padding-right">
+            <div class="triangle--container">
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+                <div class="triangle"></div>
+            </div>
+            <div class="title">弹幕评论</div>
+        </div>
+        <div class="line line--padding-left line--padding-right paragraph">
+            这是功能的简单说明介绍文案这是功能的简单说明介绍文案这是功能的简单说明介绍文案这是功能的是功能的简单说明介绍文案</div>
+        <div class="line line--padding-left line--padding-right">
+            <div class="button button--primary">
+                <div class="button--text">立即阅读</div>
+                <div class="button--icon-arrow iconfont icon-xiajiantou"></div>
+            </div>
+        </div>
+        <div class="line line--padding-right">
+            <div class="decoration--container">
+                <div class="decoration"></div>
+                <div class="decoration"></div>
+                <div class="decoration"></div>
+            </div>
+            <div class="button button--default">
+                <div class="button--icon--thumb-up">
+                    <div class="iconfont icon-dianzan"></div>
+                    <div class="button--text-suffix">12</div>
+                </div>
+                <div class="button--text-divider"></div>
+                <div class="button--icon--thumb-down">
+                    <div class="iconfont icon-dianzan"></div>
+                    <div class="button--text-suffix">6</div>
+                </div>
+            </div>
+
+            <div class="button button--default button--message">
+                <div class="button--icon--message">
+                    <div class="button--icon iconfont icon-xiaoxi"></div>
+                    <div class="button--text-suffix">99+</div>
+                </div>
+                <div class="button--text">想法</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
