@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+}
+div {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  position: relative;
+  max-width: 710px;
+  width: 100%;
+  height: 5.18rem;
+  overflow: hidden;
+}
+.example {
+  position: absolute;
+  padding-top: 100%;
+  width: 100%;
+  background: url('http://m1.mail.sina.com.cn/classic/base_download_att.php?mid=041DEE6997ADBB0D321E9ADB7B00B09E7C00000000000001&fid=new&get_cmd=show&content_type=image/png&file_name=InsertPic_CFEA.png&attinfo=4-22751-102881-base64') no-repeat top left;
+  background-size: 100%;
+  z-index: -1;
+}
+.bg {
+  position: absolute;
+  right: 2.6%;
+  bottom: 2.8%;
+  width: 92%;
+  height: 85.6%;
+  border-radius: 4px;
+  background-color: #f2f4fb;
+  z-index: -1;
+}
+.line {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  font-size: 0.24rem;
+  overflow: hidden;
+}
+.line--padding-left {
+  padding-left: 12%;
+}
+.line--padding-right {
+  padding-right: 9.3%;
+}
+.line .title {
+  float: right;
+  margin-top: 0.2rem;
+  font-size: 0.64rem;
+  font-weight: bold;
+}
+.triangle--container {
+  float: left;
+  margin-left: 0.14rem;
+  margin-top: 0.33rem;
+  width: 1.2rem;
+  overflow: hidden;
+}
+.triangle {
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-right: 0.07rem;
+  margin-bottom: 0.1rem;
+  height: 0.17rem;
+  width: 0.17rem;
+  border-top: 0.17rem solid transparent;
+  border-left: 0.17rem solid rgba(36, 80, 231, 0.1);
+}
+.paragraph {
+  display: -webkit-box;
+  margin-top: 0.38rem;
+  line-height: 0.36rem;
+  letter-spacing: 0.0005rem;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-radius: 0.4rem;
+  font-weight: bold;
+  padding-left: 0.32rem;
+  padding-right: 0.32rem;
+}
+.button--primary {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 0.24rem;
+  margin-bottom: 0.1rem;
+  font-size: 0.32rem;
+  background-color: #0083ff;
+  color: #fff;
+}
+.button--default {
+  float: left;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 0.135rem;
+  width: 3.52rem;
+  background-color: #fff;
+  color: #000;
+}
+.button--text-suffix {
+  position: absolute;
+  top: 0.6em;
+  right: -0.18rem;
+  height: 1.2em;
+  line-height: 1.2em;
+  background: #fff;
+  text-align: right;
+  font-size: 0.18rem;
+}
+.button--text-divider {
+  width: 0.02rem;
+  height: 0.32rem;
+  background-color: #e8e8e8;
+}
+.button--primary .iconfont {
+  position: relative;
+  right: -0.02rem;
+  font-size: 0.36rem;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.button--default .iconfont {
+  font-size: 0.44rem;
+}
+.button--icon--thumb-up,
+.button--icon--thumb-down,
+.button--icon--message {
+  position: relative;
+  height: 100%;
+}
+.button--icon--thumb-down .iconfont {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+.button--message {
+  margin-left: 0.25rem;
+  width: 1.79rem;
+}
+.button--icon--message {
+  z-index: 1;
+}
+.button--message .button--text {
+  position: relative;
+  z-index: 2;
+}
+.decoration--container {
+  float: left;
+  margin-left: 0.3rem;
+  margin-top: 0.32rem;
+  margin-right: 0.37rem;
+  width: 0.2rem;
+}
+.decoration {
+  margin-bottom: 0.06rem;
+  width: 0.2rem;
+  height: 0.07rem;
+  border-radius: 5px;
+  background-color: #000;
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+  -webkit-transform-origin: 0;
+          transform-origin: 0;
+}
