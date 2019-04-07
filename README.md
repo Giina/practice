@@ -17,5 +17,6 @@ practice makes perfect
 - [ ] 生产环境
 - [ ] 部署环境
 * 兼容移动端
-- [ ] rem.js
-- [ ] caniuse.com 
+- [x] rem.js
+- [x] caniuse.com 
+* 语义化
