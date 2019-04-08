@@ -19,4 +19,10 @@ practice makes perfect
 * 兼容移动端
 - [x] rem.js
 - [x] caniuse.com 
-* 语义化
+* 其他
+- [ ] 语义化
+- [ ] 用less将css模块化，去除多余类名
+
+# questions
+
+* rgba混合色彩计算
